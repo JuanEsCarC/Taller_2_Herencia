@@ -8,10 +8,24 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Taller_2_Herencia.Core.Circle">
-    <Position X="11.25" Y="1" Width="1.75" />
+    <Position X="10.75" Y="1.5" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAACAAEAAAAQA=</HashCode>
       <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller_2_Herencia.Core.Square">
+    <Position X="8" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAAAAAAAAAAAAAAAAEAAAAAMAAAAAA=</HashCode>
+      <FileName>Square.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Taller_2_Herencia.Core.Rectangle">
+    <Position X="5.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAIAAAAAAAAAEAAAAAEAEAAAA=</HashCode>
+      <FileName>Rectangle.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
