@@ -42,5 +42,12 @@
       <FileName>Kite.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Taller_2_Herencia.Core.Parallelogram">
+    <Position X="3" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAGEAAAAA=</HashCode>
+      <FileName>Parallelogram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
