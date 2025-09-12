@@ -65,13 +65,6 @@ public class Rhombus : Square
     }
 
 
-
-
-
-
-
-
-
 }
 
 

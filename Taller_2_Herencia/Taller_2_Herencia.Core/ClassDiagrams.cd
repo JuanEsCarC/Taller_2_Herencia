@@ -49,5 +49,12 @@
       <FileName>Parallelogram.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="Taller_2_Herencia.Core.Triangle">
+    <Position X="5.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAEAAAAAmEABAAA=</HashCode>
+      <FileName>Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
