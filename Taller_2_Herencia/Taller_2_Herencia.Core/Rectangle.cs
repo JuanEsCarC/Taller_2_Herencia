@@ -20,7 +20,7 @@ public class Rectangle : Square
     }
 
 
-    // Fix: Call base constructor with required parameters 'name' and 'a' (side length for Square).
+    //Constructor
     public Rectangle(string name, double a, double b) : base(name, a)
     {
         B = b;
