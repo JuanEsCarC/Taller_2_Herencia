@@ -3,11 +3,8 @@
 public abstract class GeometricFigure
 {
 
-    //Properties
     public string Name { get; set; } = null!;
 
-
-    //Methods
 
     public abstract double GetArea();
     public abstract double GetPerimeter();

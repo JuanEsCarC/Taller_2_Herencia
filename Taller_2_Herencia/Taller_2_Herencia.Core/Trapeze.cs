@@ -8,17 +8,17 @@ namespace Taller_2_Herencia.Core;
 
 public class Trapeze : Triangle
 {
-    //Fields
+
     private double _d;
 
-    //Properties
+
     public double D
     {
         get => _d;
         set => _d = ValidateD(value);
     }
 
-    //Constructor
+
     public Trapeze(string name, double a, double b, double c, double h, double d) : base(name, a, b, c, h)
     {
         D = d;

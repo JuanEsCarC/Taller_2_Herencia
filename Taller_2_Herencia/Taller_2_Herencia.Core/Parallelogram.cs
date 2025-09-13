@@ -8,10 +8,9 @@ namespace Taller_2_Herencia.Core;
 
 public class Parallelogram : Rectangle
 {
-    //Fields
+
     private double _h;
 
-    //Properties
     public double H
     {
         get => _h;
@@ -19,14 +18,12 @@ public class Parallelogram : Rectangle
     }
 
 
-    //Constructor
     public Parallelogram(string name, double a, double b, double h) : base(name, a, b)
     {
         H = h;
     }
 
 
-    //Methods
     public override double GetArea()
     {
         return B * H;

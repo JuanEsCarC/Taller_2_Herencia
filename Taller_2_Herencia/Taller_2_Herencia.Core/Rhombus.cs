@@ -8,11 +8,10 @@ namespace Taller_2_Herencia.Core;
 
 public class Rhombus : Square
 {
-    //Fields
+
     private double _d1;
     private double _d2;
 
-    //Properties
 
     public double D1 
     { 
@@ -26,15 +25,11 @@ public class Rhombus : Square
     }
 
 
-    //Constructor
     public Rhombus(string name, double a, double d1, double d2) : base(name, a)
     {
         D1 = d1;
         D2 = d2;
     }
-
-
-    //Methods
 
     public override double GetArea()
     {

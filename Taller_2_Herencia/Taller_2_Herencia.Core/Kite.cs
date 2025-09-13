@@ -9,10 +9,9 @@ namespace Taller_2_Herencia.Core;
 public class Kite : Rhombus
 {
 
-    //Fields
+
     private double _b;
 
-    //Properties
     public double B
     {
         get => _b;
@@ -20,14 +19,12 @@ public class Kite : Rhombus
     }
 
 
-    //Constructor
     public Kite(string name, double a, double d1, double d2, double b) : base(name, a, d1, d2)
     {
         B = b;
     }
 
 
-    //Methods
     public override double GetArea()
     {
         return (D1 * D2) / 2;

@@ -8,25 +8,21 @@ namespace Taller_2_Herencia.Core;
 
 public class Circle : GeometricFigure
 {
-    //Fields
+
     private double _r;
 
-    //Properties
     public double R
     {
         get => _r;
         set => _r = ValidateR(value);
     }
 
-        
-    //Constructor
     public Circle(string name, double rad)
     {
         Name = name;
         R = rad;
     }
 
-    //Methods
     public override double GetArea() 
     { 
         return Math.PI * Math.Pow(R,2); 

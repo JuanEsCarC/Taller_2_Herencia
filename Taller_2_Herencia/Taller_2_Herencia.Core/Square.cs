@@ -9,10 +9,8 @@ namespace Taller_2_Herencia.Core;
 public class Square : GeometricFigure
 {
 
-    //Fields
     private double _a;
 
-    //Properties
     public double A
     {
         get => _a; 
@@ -20,7 +18,6 @@ public class Square : GeometricFigure
     }
 
 
-    //Constructor
     public Square (string name, double area)
     {
         Name = name;
@@ -28,7 +25,6 @@ public class Square : GeometricFigure
     }
 
 
-    //Methods
     public override double GetArea()
     {
         return Math.Pow(A, 2);

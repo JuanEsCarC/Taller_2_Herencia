@@ -9,10 +9,8 @@ namespace Taller_2_Herencia.Core;
 public class Rectangle : Square
 {
 
-    //Fields
     private double _b;
 
-    //Properties
     public double B
     {
         get => _b;
@@ -20,14 +18,12 @@ public class Rectangle : Square
     }
 
 
-    //Constructor
     public Rectangle(string name, double a, double b) : base(name, a)
     {
         B = b;
     }
 
 
-    //Methods
     public override double GetArea()
     {
         return A * B;

@@ -9,11 +9,8 @@ namespace Taller_2_Herencia.Core;
 public class Triangle : Rectangle
 {
 
-    //Fields
     private double _c;
     private double _h;
-
-    //Properties
 
     public double C
     {
@@ -27,15 +24,12 @@ public class Triangle : Rectangle
     }
 
 
-    //Constructor
     public Triangle(string name, double a, double b, double c, double h) : base(name, a, b)
     {
         C = c;
         H = h;
     }
 
-
-    //Methods
 
     public override double GetArea()
     {
